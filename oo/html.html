@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> bora la paulao</title>
+    <style>
+        .p {
+            margin: auto;
+            width: 200px;
+            height: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="p">
+        <form action="/" method="GET">
+            <input type='text' name="nam" class="u" placeholder=' seu nome' />
+            <br>
+            <br>
+
+            <input type='password' name="nam" class="s" placeholder=' senha ' />
+            <br>
+            <br>
+            <input type='submit' value='enviar' class="e" onclick="usu()" />
+
+
+        </form>
+    </div>
+    <script>
+        let usu = document.querySelector('.e').addEventListener('click', function() {
+            let senha = document.querySelector('.s').value
+            let usuario = document.querySelector('.u').value
+            if (senha == '12345' && usuario == 'paulo') {
+                window.open('ht.html')
+            } else {
+                alert(' desculpa usuario err')
+            }
+
+        })
+    </script>
+</body>
+
+</html>

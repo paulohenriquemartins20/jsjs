@@ -1,0 +1,21 @@
+{
+  "name": "inquirer",
+  "version": "1.0.0",
+  "description": "um estudo",
+  "main": "arquivo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ph"
+  ],
+  "author": "paulo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.1.1",
+    "minimist": "^1.2.6"
+  }
+}
